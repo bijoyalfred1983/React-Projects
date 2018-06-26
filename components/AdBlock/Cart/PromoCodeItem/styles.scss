@@ -1,0 +1,151 @@
+@import '../../../theme/variables';
+
+.promoCodeContainer {
+  .promoCodeCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-white-main;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 24px 0;
+    padding: 16px;
+  }
+
+  .promoTextContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .promoCartImg {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+  }
+
+  .promoTitleText {
+    font-family: $font-az-medium;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: $az-dark-grey-text;
+    width: 416px;
+    flex: 1;
+  }
+
+  .couponText {
+    color: $orange-primary;      
+  }
+
+  .applyButton {
+    width: 160px;
+    object-fit: contain;
+    font-family: $font-az-medium !important;
+    border: solid 1px $az-crust-grey !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $black-bg-color !important;
+
+    @media #{$extra-large-and-up} {
+      height: 40px !important;
+    }
+
+    @media #{$extra-large-and-down} {
+      width: 120px;
+    }
+
+    &:hover {
+      border-bottom: 3px;
+
+      div {
+        @media #{$extra-large-and-up} {
+          height: 40px !important;
+        }
+      }
+    }
+  }
+}
+
+@media #{$extra-large-and-up} {
+  .promoCodeCardMobile {
+    display: none;
+  }
+}
+
+@media #{$medium-only} {
+  .promoCodeContainer {
+    padding: 0;
+    margin: 0 10px;
+    border: 1px solid $crust-white-color;
+  }
+}
+
+@media #{$extra-large-and-down} {
+  .promoCodeContainer {
+    padding: 0 16px 16px;
+    background-color: $color-white-main;
+
+    .promoCodeCard {
+      display: none;
+    }
+
+    .promoCodeCardMobile {
+      max-width: 320px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .promoTitleText {
+      font-family: $font-az-app;
+      font-size: 12px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      color: $grey-ultra-dark;
+      width: 100%;
+      text-align: center;
+    }
+
+    .persentageText {
+      color: $color-green;        
+    }
+
+    .promoTextContainer {
+      justify-content: space-around;
+      margin-top: 7px;
+    }
+
+    .couponTextContent {
+      width: 160px;
+      height: 36px;
+      border: 1px dashed $az-crust-grey;
+      margin-right: 8px;
+    }
+
+    .couponText {
+      font-family: $font-az-medium;
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      height: 34px;
+      line-height: 34px;
+      color: $black-bg-color;
+    }
+  }
+}
+
+@media print{
+  .promoCodeCardMobile{
+    display:none;
+  }
+}

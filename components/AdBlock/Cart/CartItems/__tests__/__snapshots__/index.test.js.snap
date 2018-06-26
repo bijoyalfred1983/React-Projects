@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItems /> renders correctly 1`] = `
+<CartItems
+  items={
+    Array [
+      Object {
+        "commerceItemId": "1st item",
+      },
+      Object {
+        "commerceItemId": "2nd item",
+      },
+    ]
+  }
+>
+  <Item
+    data={
+      Object {
+        "commerceItemId": "1st item",
+      }
+    }
+    key="1st item"
+  >
+    <span>
+      Item
+    </span>
+  </Item>
+  <Item
+    data={
+      Object {
+        "commerceItemId": "2nd item",
+      }
+    }
+    key="2nd item"
+  >
+    <span>
+      Item
+    </span>
+  </Item>
+</CartItems>
+`;

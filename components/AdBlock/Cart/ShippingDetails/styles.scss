@@ -1,0 +1,163 @@
+@import '../../../theme/variables';
+
+.shippingDetailsContainer {
+  background-color: $color-white-main;
+  width: 668px;
+  margin: auto;
+  
+  .containerRow {
+    display: flex;
+  }
+
+  .containerColLeft {
+    display: flex;
+    padding: 30px 0 30px 16px;
+    flex: 1.1;
+  }
+
+  .containerColRight {
+    display: flex;
+    padding: 30px 16px 30px 0;
+    flex: 0.9;
+  }
+
+  .shipingDetails {
+    margin: 0 17px;
+    flex: 1;
+  }
+
+  .shipImg {
+    width: 25px;
+    height: 20px;
+  }
+
+  .homeImg {
+    width: 40px;
+    height: 40px;
+    margin-top: -8px;
+    margin-right: -8px;
+  }
+
+  .shipTitle {
+    font-family: $font-az-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+
+    .shopRunnerImg {
+      display: inline-block;
+      float: right;
+      margin-top: -21px;
+      margin-right: -20px;
+    }
+  }
+
+  .subShipTitle {
+    font-family: $font-az-app;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    line-height: 1.67;
+    margin-top: 8px;
+  }
+
+  .shipInfo {
+    margin-top: 8px;
+    font-family: $font-az-app;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    opacity: 0.6;
+    line-height: 1.5;
+  }
+
+  .addressContainer {
+    display: flex;
+    margin-top: 12px;
+  }
+
+  .addressText {
+    font-family: $font-category-cont;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 14px;
+    line-height: 1.43; 
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .closeAtTime {
+    font-family: $font-category-cont;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+  }
+
+  .linkContent a:hover {
+    text-decoration: underline;
+  }
+
+  .linkText {
+    font-family: $font-category-cont;
+    font-size: 12px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-weight: 500;
+    line-height: 1.58;
+    color: $black-bg-color;
+  }
+
+  .linkTextUnderline {
+    font-family: $font-az-app;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    line-height: 1.7;
+    color: $black-bg-color;
+    text-decoration: underline;
+    border: none !important;
+    background: none !important;
+    padding: 0;
+  }
+
+  .linkContent {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+
+    .learnMoreShipHome {
+      text-transform: uppercase;
+    }
+  }
+
+  .line {
+    width: 1px;
+    height: 9px;
+    border: solid 0.5px $az-pipe-grey-text;
+    margin: 0 8.5px;
+  }
+}
+
+@media #{$extra-large-and-down} {
+  .shippingDetailsContainer {
+    display: none;
+  }
+}
+
+.shipHomeTitle {
+  text-transform: uppercase;
+}

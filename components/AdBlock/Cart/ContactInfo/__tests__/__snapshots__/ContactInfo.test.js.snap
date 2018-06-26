@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactInfo /> renders correctly ContactInfo 1`] = `
+<Component>
+  <div
+    className="contactInfoContainer"
+  >
+    <div
+      className="questionTitle"
+    >
+      Questions?
+    </div>
+    <div
+      className="contactInfo"
+    >
+      Contact us at (800) 288-6966,
+       
+      <a
+        className="contactLinkText"
+        href="mailto:customer.service@autozone.com"
+      >
+        customer.service@autozone.com
+      </a>
+       
+      or 4400 Summer Avenue, Memphis TN 38122.
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`<ContactInfo /> renders correctly ContactInfo with static label data 1`] = `
+<Component
+  staticLabelData={
+    Object {
+      "label_checkout_cart_QuestionsAllCaps": "a",
+      "label_checkout_footer_ContactUsAt8002886966": "",
+      "label_checkout_footer_CustomerServiceAutozoneCom": "a",
+      "label_checkout_footer_Or4400SummerAvenueMemphisTn38122": "a",
+    }
+  }
+>
+  <div
+    className="contactInfoContainer"
+  >
+    <div
+      className="questionTitle"
+    >
+      a
+    </div>
+    <div
+      className="contactInfo"
+    >
+      label_checkout_footer_ContactUsAt8002886966
+       
+      <a
+        className="contactLinkText"
+        href="mailto:customer.service@autozone.com"
+      >
+        a
+      </a>
+       
+      a
+    </div>
+  </div>
+</Component>
+`;

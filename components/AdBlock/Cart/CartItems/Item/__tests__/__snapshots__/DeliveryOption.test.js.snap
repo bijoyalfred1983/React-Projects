@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryOption /> renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <MuiThemeProvider>
+    <DeliveryOption
+      data={
+        Object {
+          "@class": "com.autozone.diy.vo.AZCartCommerceItems",
+          "amount": 7.99,
+          "application": null,
+          "availability": "In Stock",
+          "catalogRefId": "20372",
+          "commerceItemId": "ci343000002",
+          "currencyCode": "USD",
+          "dealAvailable": false,
+          "displayName": "Pilot Automotive/Antenna",
+          "eligibleForNextDay": false,
+          "estDeliveryTime": "Est. Delivery: Feb  14-15",
+          "imageURL": "https://contentinfo.autozone.com/znetcs/product-info/en/US/pil/CZ-241EC/image/1/",
+          "listPrice": 7.99,
+          "location": null,
+          "onSale": false,
+          "partNumber": "CZ-241EC",
+          "productNotes": null,
+          "quantity": 1,
+          "quickNote": "425 Cold cranking Amps (530 cranking Amps)",
+          "rawTotalPrice": 7.99,
+          "rebateAvailable": false,
+          "salePrice": 0,
+          "skuPricingAndAvailability": Object {
+            "@class": "com.autozone.diy.commerce.pricing.AZPricingDealsInfo",
+            "SRElegible": false,
+            "bopusStore": false,
+            "categoryId": null,
+            "configurableSku": false,
+            "configurableSkuMessage": null,
+            "corePrice": 18,
+            "corePriceAvailable": true,
+            "dealAvailable": false,
+            "dealUrl": false,
+            "estimatedDeliveryMessage": "Not Available",
+            "highestPrice": 0,
+            "lowestPrice": 0,
+            "onlineStockLabel": null,
+            "productId": null,
+            "productLine": null,
+            "rebateUrl": null,
+            "rebatesAvaialble": false,
+            "retailPrice": 174.99,
+            "shipToHomeAvailable": false,
+            "shipToHomeCSSClass": null,
+            "shipToHomeLabel": "Ship To Home",
+            "shipToHomeStockLabel": "In Stock",
+            "skuAddedTocart": false,
+            "skuAvailabilityInfo": Object {
+              "@class": "com.autozone.diy.valueobject.SKUAvailabilityPriceInfo",
+              "availableForDirectShipping": false,
+              "availableInOnline": false,
+              "availableInStore": true,
+              "availableInVdpOnline": false,
+              "availableInVdpStore": false,
+              "eligibleForNextDay": false,
+              "exceptionItem": false,
+              "hubAvail": false,
+              "item": null,
+              "lowestPrice": null,
+              "messageCutOffTime": null,
+              "nextDayAvailableMessage": null,
+              "orderByMessage": null,
+              "shippingAvailabilityMessage": Object {
+                "@class": "com.autozone.diy.integration.shipping.ShippingAvailabilityMessage",
+                "calculatedDate": null,
+                "carrierHoliday": false,
+                "commerceItemId": null,
+                "cutOffTime": null,
+                "displayDate": null,
+                "eligibleForNextDay": false,
+                "holiday": false,
+                "inventoryMessage": null,
+                "messageCutoffTime": null,
+                "messageDate": null,
+                "nextDayAvailableMessage": null,
+                "orderByMessage": null,
+                "qoHAvailable": false,
+              },
+              "showSearchAnotherStoreLink": false,
+              "skuid": "319462",
+              "storeAvail": true,
+              "storeCorePrice": "18.0",
+              "storeRetailPrice": "174.99",
+              "storeTotalPrice": "192.99",
+              "unAvailableInOnlineAndVdpOnline": true,
+              "unAvailableInStoreAndVdpStore": false,
+              "unavailOnlineQoh": false,
+              "unavailQoh": true,
+              "webCorePrice": null,
+              "webRetailPrice": null,
+              "webTotalPrice": null,
+            },
+            "skuId": "319462",
+            "skuUnavailable": false,
+            "storePickupAvailable": true,
+            "storePickupCSSClass": null,
+            "storePickupLabel": "Store Pick Up",
+            "storePickupStockLabel": "Out of Stock",
+            "vendorId": null,
+          },
+          "storeItem": true,
+          "techNotes": null,
+          "unitAmount": 7.99,
+          "vehicleFit": false,
+          "warrenty": null,
+        }
+      }
+    >
+      <div
+        className="deliveryOption"
+      >
+        <form
+          className="row display_flex"
+        >
+          <div
+            className="pickUpStore white_active"
+          >
+            <div
+              className="display_flex"
+            >
+              <input
+                checked={true}
+                className="test5 pickup
+                "
+                disabled={false}
+                id="radio-1"
+                name="myRadio"
+                onChange={[Function]}
+                type="radio"
+                value="ship"
+              />
+            </div>
+            <div
+              className="storeLeft"
+            >
+              <div
+                className="store_pickUp"
+                id="test5"
+              >
+                STORE-PICK-UP
+              </div>
+              <div
+                className="redFont"
+                id="test5"
+              >
+                Out of Stock
+              </div>
+            </div>
+          </div>
+          <div
+            className="shipHomeStore grey_inactive"
+          >
+            <div>
+              <input
+                checked={false}
+                className="with-gap test51 pickup
+                  notAllowed"
+                disabled={true}
+                id="test6"
+                name="myRadio"
+                onChange={[Function]}
+                type="radio"
+                value="store"
+              />
+            </div>
+            <div
+              className="storeLeft1"
+            >
+              <div
+                className="store_pickUp"
+              >
+                SHIP-TO-HOME
+              </div>
+              <div
+                className="greenFont"
+              >
+                In Stock
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </DeliveryOption>
+  </MuiThemeProvider>
+</Provider>
+`;

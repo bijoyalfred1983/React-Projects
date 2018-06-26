@@ -1,0 +1,81 @@
+
+@import '../../../theme/variables';
+
+.contactInfoContainer {
+  width: 100%;
+  padding: 59px 0;
+  
+  .questionTitle {
+    font-family: $font-az-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+  }
+
+  .contactInfo {
+    font-family: $font-az-app;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 5px;
+  }
+
+  .contactLinkText {
+    text-decoration: underline;
+    color: $black-bg-color;
+  }
+}
+
+@media #{$extra-large-and-down} {
+  .contactInfoContainer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: $color-white-main;
+    margin-top: 24px;
+	
+    .questionTitle {
+      width: 288px;
+      font-size: 20px;   
+      margin: auto;   
+      color: $grey-ultra-dark;
+    }
+
+    .contactInfo {
+      width: 288px;
+      margin: auto;   
+      line-height: 1.43;
+      color: $grey-ultra-dark;
+    }
+
+    .contactLinkText {
+      text-decoration: none;
+      color: $grey-ultra-dark;
+    }
+  }
+}
+
+@media #{$medium-only} {
+  .contactInfoContainer {
+    background-color: $az-grey-light;	
+    
+	
+    .questionTitle {
+      width: auto;
+      padding-left: 20px;
+      text-align: left;	  
+    }
+	
+    .contactInfo {
+      width: auto;
+      padding-left: 20px;
+      text-align: left;
+    }
+  }
+}

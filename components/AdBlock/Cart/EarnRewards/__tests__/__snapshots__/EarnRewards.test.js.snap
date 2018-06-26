@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EarnRewards /> renders correctly EarnRewards 1`] = `
+<Component>
+  <div
+    className="earnRewardsContainer"
+  >
+    <div
+      className="earnRewardsBox"
+    >
+      <div
+        className="rewardsTextBoxMob"
+      >
+        <div
+          className="imageContent"
+        >
+          <img
+            alt="AZ_rewards"
+            className="AZ_Rewards_Card"
+            src="/images/autoZoneRewards.png"
+          />
+        </div>
+        <div
+          className="rewardsTextMob rewardsFormatText"
+        >
+          Earn AutoZone® Rewards
+        </div>
+      </div>
+      <div
+        className="contentFlex"
+      >
+        <div
+          className="rewardsText rewardsFormatText"
+        >
+          Earn AutoZone® Rewards
+        </div>
+        <div
+          className="qualifilesText"
+        >
+          This order qualifies for Rewards! To clain the earn credits, 
+          <a
+            className="loginText"
+            href="http://localhost/auth/oauth/v2/authorize?client_id=l7xx85b096d1f8c3426cb3ed7724c7863444&response_type=code&redirect_uri=https://example.com&scope=ecommb2c"
+          >
+            LOG IN
+          </a>
+           to your existing account or sign-up after checkout.
+        </div>
+      </div>
+    </div>
+  </div>
+</Component>
+`;

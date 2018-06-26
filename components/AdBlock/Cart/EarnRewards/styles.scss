@@ -1,0 +1,180 @@
+@import '../../../theme/variables';
+
+
+.earnRewardsContainer {
+  width: 100%;
+  margin: 68px 0;
+
+  .earnRewardsBox {
+    width: 75%;
+    display: flex;
+    margin: auto;
+  }
+
+  .imageContent {
+    margin-right: 32px;
+  }
+
+  .AZ_Rewards_Card {
+    width: 146px;
+    border-radius: 0.5px;
+    vertical-align: middle;
+  }
+
+  .rewardsText {
+    width: 417px;
+    font-family: $font-az-medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .rewards_balance_heading {
+    padding-left: 10px;
+  }
+
+  .rewardsFormatText {
+    text-transform: uppercase;
+  }
+  
+  .qualifilesText {
+    font-family: $font-az-app;
+    font-size: 16px;
+    color: $grey-ultra-dark;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 7px; 
+
+    a {
+      color: $grey-ultra-dark;
+      font-family: $font-category-cont;
+      text-decoration: underline;      
+      font-weight: 550;
+      font-size: 15px;
+
+      @media #{$extra-large-and-down} {
+        font-size: 14px;
+      }
+    }
+  } 
+
+  .fullStopSymbol {
+    padding-left: 1px;
+    font-weight: 550;
+  }
+
+  .contentFlex {
+    flex: 1;
+	
+    @media #{$medium-only} {
+      padding-left: 60px;
+    }	
+  }
+}
+
+.superScript{
+  top:-9px;
+  font-size:45%;
+}
+
+@media #{$extra-large-and-up} {
+  .earnRewardsContainer {
+    .rewardsTextMob {
+      display: none;
+    }
+  }
+}
+
+@media #{$extra-large-and-down} {
+  .earnRewardsContainer {
+    margin: 0;
+    border-top: 1px solid $color-lighter-grey;  
+    width: auto;
+
+    .rewardsText {
+      display: none;
+    }
+
+    .imageContent {
+      margin-right: 16px;
+    }
+
+    .AZ_Rewards_Card {
+      width: 45px;
+      border-radius: 0.3px;
+    }
+
+    .rewardsTextBoxMob {
+      margin: auto;
+    }
+
+    .earnRewardsBox {
+      width: 100%;
+      display: flex;
+      margin: auto;
+      flex-flow: column;
+      background-color: #fff;
+      padding: 39px 16px;
+	  
+      @media #{$medium-only} {
+        padding: 20px 0 10px;
+      }	  
+    }
+
+    .rewardsTextMob {
+      width: 229px;
+      font-family: $font-az-medium;
+      font-size: 20px;
+      font-weight: 550;
+      line-height: 1.2;
+	  
+      @media #{$medium-only} {
+        font-size: 15px;	  
+      }	  
+    }
+
+    .qualifilesText {
+      font-size: 14px;
+      line-height: 1.29;
+      text-align: center;
+	  
+      @media #{$medium-only} {
+        text-align: justify;		
+        font-size: 12px;
+        color: $grey-ultra-dark;
+        margin-top: -5px;
+      }	  
+    }
+
+    .loginText {
+      font-size: 14px;
+      line-height: 1.29;
+    }
+  }
+}
+
+@media #{$medium-only} {
+  .earnRewardsContainer {
+    margin: 0;
+    border-top: 1px solid $color-lighter-grey;  
+    margin-top: 35px;
+    width: auto;
+	
+    .earnRewardsBox {
+      padding-top: 10px;
+	  
+      .rewardsTextBoxMob {	
+        .imageContent {
+          margin-top: 10px;
+        }	  
+      }
+    }
+  }
+}
+
+@media print{
+  .earnRewardsContainer{
+    margin: 75px 0;
+    clear: both;
+  }
+}

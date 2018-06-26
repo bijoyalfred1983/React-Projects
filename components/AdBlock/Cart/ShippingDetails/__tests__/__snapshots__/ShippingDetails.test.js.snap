@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingDetails /> check for empty cart data for ShippingDetails 1`] = `
+<StaticRouter
+  basename=""
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Component
+      cartData={Object {}}
+      staticLabelData={
+        Object {
+          "label_cart_beforeFooter_And": "a",
+          "label_cart_beforeFooter_With": "a",
+          "label_cart_bopus_2DayShipping": "a",
+          "label_cart_bopus_ChangeStore": "a",
+          "label_cart_bopus_ClosesAt": "a",
+          "label_cart_bopus_Free": "a",
+          "label_cart_bopus_OnlyApplicableIfOrderedMoreThanOneHourBeforeClosingTime": "a",
+          "label_cart_bopus_PickUpInStoreSameDay": "a",
+          "label_cart_bopus_SaveTimeBySelectingPickUpInStoreAndWeLlEmailYouWhenProductsAreReady": "a",
+          "label_cart_shipToHome_LearnMore": "a",
+          "label_cart_shipToHome_ShipToHomeWith": "a",
+          "label_checkout_signin_SignIn": "a",
+        }
+      }
+    >
+      <div
+        className="shippingDetailsContainer"
+      >
+        <div
+          className="containerRow"
+        >
+          <div
+            className="containerColLeft"
+          >
+            <div>
+              <img
+                alt="store pickup"
+                className="homeImg"
+                src="/images/az-store.png"
+              />
+            </div>
+            <div
+              className="shipingDetails"
+            >
+              <div
+                className="shipTitle"
+              >
+                a
+              </div>
+              <div
+                className="subShipTitle"
+              >
+                a
+              </div>
+              <div
+                className="shipInfo"
+              >
+                a
+              </div>
+              <div
+                className="addressContainer"
+              >
+                <div
+                  className="addressText"
+                >
+                  <div />
+                  <div />
+                  <div>
+                    a
+                     
+                  </div>
+                </div>
+                <div
+                  className="linkText"
+                >
+                  <div>
+                    a
+                  </div>
+                  <Link
+                    className="linkTextUnderline"
+                    replace={false}
+                    to=""
+                  >
+                    <a
+                      className="linkTextUnderline"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      a
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="containerColRight"
+          >
+            <div>
+              <img
+                alt="ship to home"
+                className="shipImg"
+                src="/images/shipping-truck.png"
+              />
+            </div>
+            <div
+              className="shipingDetails"
+            >
+              <div
+                className="shipTitle"
+              >
+                a
+              </div>
+              <div
+                className="subShipTitle"
+              >
+                label_cart_shipToHome_OrderNowAndGetItBetween
+                 
+                    
+              a
+                    
+                a
+                 
+                <strong>
+                  a
+                   
+                </strong>
+                 
+                a
+                .
+              </div>
+              <div
+                className="linkContent"
+              >
+                <Link
+                  className="linkText"
+                  replace={false}
+                  to=""
+                >
+                  <a
+                    className="linkText"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    a
+                  </a>
+                </Link>
+                <div
+                  className="line"
+                />
+                <Link
+                  className="linkText"
+                  replace={false}
+                  to=""
+                >
+                  <a
+                    className="linkText"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    a
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Component>
+  </Router>
+</StaticRouter>
+`;
+
+exports[`<ShippingDetails /> renders correctly ShippingDetails 1`] = `
+<StaticRouter
+  basename=""
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Component
+      cartData={
+        Object {
+          "shopRunnerOn": true,
+          "srMaxDate": "24 Jan",
+          "srMinDate": "22 Jan",
+          "storeAddress": "385 N Cleveland St",
+          "storeAddress1": "",
+          "storeCity": "Memphis",
+          "storeNextTransitionTime": "7:30 AM",
+          "storeState": "TN",
+          "storeZipcode": "38104",
+        }
+      }
+      changeStoreLinkInteraction={[MockFunction]}
+      staticLabelData={
+        Object {
+          "test": "aa",
+        }
+      }
+    >
+      <div
+        className="shippingDetailsContainer"
+      >
+        <div
+          className="containerRow"
+        >
+          <div
+            className="containerColLeft"
+          >
+            <div>
+              <img
+                alt="store pickup"
+                className="homeImg"
+                src="/images/az-store.png"
+              />
+            </div>
+            <div
+              className="shipingDetails"
+            >
+              <div
+                className="shipTitle"
+              >
+                label_cart_bopus_PickUpInStoreSameDay
+              </div>
+              <div
+                className="subShipTitle"
+              >
+                label_cart_bopus_SaveTimeBySelectingPickUpInStoreAndWeLlEmailYouWhenProductsAreReady
+              </div>
+              <div
+                className="shipInfo"
+              >
+                label_cart_bopus_OnlyApplicableIfOrderedMoreThanOneHourBeforeClosingTime
+              </div>
+              <div
+                className="addressContainer"
+              >
+                <div
+                  className="addressText"
+                >
+                  <div>
+                    385 N Cleveland St
+                  </div>
+                  <div />
+                  <div>
+                    label_cart_bopus_ClosesAt
+                     
+                  </div>
+                </div>
+                <div
+                  className="linkText"
+                >
+                  <div>
+                    label_cart_bopus_ClosesAt
+                  </div>
+                  <Link
+                    className="linkTextUnderline"
+                    onClick={[MockFunction]}
+                    replace={false}
+                    to=""
+                  >
+                    <a
+                      className="linkTextUnderline"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      label_cart_bopus_ChangeStore
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="containerColRight"
+          >
+            <div>
+              <img
+                alt="ship to home"
+                className="shipImg"
+                src="/images/shipping-truck.png"
+              />
+            </div>
+            <div
+              className="shipingDetails"
+            >
+              <div
+                className="shipTitle"
+              >
+                label_cart_shipToHome_ShipToHomeWith
+              </div>
+              <div
+                className="subShipTitle"
+              >
+                label_cart_shipToHome_OrderNowAndGetItBetween
+                 
+                  22 Jan 
+              label_cart_beforeFooter_And
+                  24 Jan 
+                label_cart_beforeFooter_With
+                 
+                <strong>
+                  label_cart_bopus_Free
+                   
+                </strong>
+                 
+                label_cart_bopus_2DayShipping
+                .
+              </div>
+              <div
+                className="linkContent"
+              >
+                <Link
+                  className="linkText"
+                  replace={false}
+                  to=""
+                >
+                  <a
+                    className="linkText"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    label_cart_shipToHome_LearnMore
+                  </a>
+                </Link>
+                <div
+                  className="line"
+                />
+                <Link
+                  className="linkText"
+                  replace={false}
+                  to=""
+                >
+                  <a
+                    className="linkText"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    label_checkout_signin_SignIn
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Component>
+  </Router>
+</StaticRouter>
+`;

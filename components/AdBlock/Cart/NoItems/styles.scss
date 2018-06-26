@@ -1,0 +1,50 @@
+@import '../../../theme/variables.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 323px;
+
+  @media #{$small-and-down} {
+    background: $color-white-main;
+  }
+
+  @media #{$medium-and-up} {
+    background: $color-light-gray;
+  }
+}
+
+.cartIsEmpty {
+  font-family: $font-az-medium;
+  color: $az-warm-grey;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.searchProducts {
+  font-size: 16px;
+  color: $az-warm-grey;
+  font-family: $font-category-cont;
+  font-weight: 500;
+
+  @media #{$small-and-down} {
+    margin-bottom: 30px;
+  }
+
+  @media #{$medium-and-up} {
+    margin-bottom: 39px;
+  }
+}
+
+.homeButton {
+  font-family: $font-az-medium;
+  text-transform: uppercase;
+  background: $black-bg-color;
+  color: $color-white-main;
+  padding: 11px 20px;
+}

@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckOut /> renders correctly 1`] = `
+<StaticRouter
+  basename=""
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Checkout>
+      <div
+        className="checkOutContainer"
+      >
+        <div
+          className="checkOutButton"
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          CHECKOUT
+        </div>
+        <div
+          className="checkOutSeparator"
+        >
+          - OR -
+        </div>
+        <Link
+          className="paypalButton"
+          replace={false}
+          to="/paypal"
+        >
+          <a
+            className="paypalButton"
+            href="/paypal"
+            onClick={[Function]}
+          >
+            <img
+              alt="paypal"
+              src="/images/paypalLogo.svg"
+            />
+          </a>
+        </Link>
+      </div>
+    </Checkout>
+  </Router>
+</StaticRouter>
+`;
+
+exports[`<CheckOut /> renders correctly 2`] = `
+<StaticRouter
+  basename=""
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Checkout
+      checkOutClickTrack={[MockFunction]}
+      checkOutPart={[MockFunction]}
+      paypalClickTrack={[MockFunction]}
+      staticLabelData={
+        Object {
+          "label_cart_orderSummary_Checkout": "aa",
+          "label_cart_orderSummary_Or": "aa",
+        }
+      }
+    >
+      <div>
+        <div
+          className="checkOutContainer"
+        >
+          <div
+            className="checkOutButton"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            aa
+          </div>
+          <div
+            className="checkOutSeparator"
+          >
+            aa
+          </div>
+          <Link
+            className="paypalButton"
+            onClick={[Function]}
+            replace={false}
+            to="/paypal"
+          >
+            <a
+              className="paypalButton"
+              href="/paypal"
+              onClick={[Function]}
+            >
+              <img
+                alt="paypal"
+                src="/images/paypalLogo.svg"
+              />
+            </a>
+          </Link>
+        </div>
+        <div>
+          <div
+            className="show-on-small hide-on-med-and-up"
+          >
+            <div
+              className="totalContainer bottomSection"
+            >
+              <div>
+                TOTAL: $
+              </div>
+              <div>
+                 ITEMS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Checkout>
+  </Router>
+</StaticRouter>
+`;

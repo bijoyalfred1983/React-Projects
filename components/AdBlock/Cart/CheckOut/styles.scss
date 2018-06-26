@@ -1,0 +1,111 @@
+@import '../../../theme/variables';
+
+.checkOutContainer{
+  width:78%;
+  margin-left: auto;  
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 1px; 
+
+  @media #{$extra-large-and-down} {
+    width:100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  form {
+    @media #{$small-and-down} {
+      width: 100%;
+    }
+  }
+}
+
+.totalContainer{
+  width:78%;
+  margin-left: auto;  
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 1px; 
+
+  @media #{$extra-large-and-down} {
+    width:100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+}
+
+.bottomSection {
+  font-size: 14px;
+  font-family: $font-az-cond;
+  font-weight: bold;
+}
+
+.checkOutButton{
+  background-color: $orange-primary;
+  color: $color-white-main;
+  font-family: $font-az-medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 40px;
+  cursor: pointer;
+
+  @media #{$extra-large-and-down} {
+    width: 146px;
+  }
+
+  @media #{$small-and-down} {
+    width: 98%;
+  }
+}
+
+.checkOutButton:hover{
+  color:$color-white-main;
+}
+
+.paypalButton{
+  background-color: $az-checkout-light-grey;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  
+  @media #{$extra-large-and-down} {
+    width: 146px;
+  }
+
+  @media #{$small-and-down} {
+    width: 95%;
+  }
+}
+
+.paypalButton:focus{
+  background-color: $az-checkout-light-grey;  
+}
+
+.checkOutSeparator{
+  color: $az-light-grey;
+  font-size: 14px;
+  font-family: $font-az-app;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+
+  @media #{$extra-large-and-down} {
+    display: none;
+  }
+}
+
+
+

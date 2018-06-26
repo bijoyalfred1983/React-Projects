@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopMessage /> renders on desktop/mobile correctly 1`] = `
+<TopMessage
+  data={
+    Array [
+      1,
+      2,
+      3,
+    ]
+  }
+>
+  <div>
+    <div
+      className="errorPart"
+    >
+      1
+      2
+      3
+    </div>
+  </div>
+</TopMessage>
+`;
+
+exports[`<TopMessage /> renders on desktop/mobile correctly when flag = ERROR 1`] = `
+<TopMessage
+  data={
+    Array [
+      1,
+      2,
+      3,
+    ]
+  }
+  flag="ERROR"
+>
+  <div>
+    <div
+      className="errorPart"
+    >
+      <img
+        alt="Error icon"
+        src="/images/itemError-mobile.png"
+      />
+      <span>
+        1
+        2
+        3
+      </span>
+    </div>
+  </div>
+</TopMessage>
+`;
+
+exports[`<TopMessage /> renders on desktop/mobile correctly when flag = SUCCESS 1`] = `
+<TopMessage
+  data={
+    Array [
+      1,
+      2,
+      3,
+    ]
+  }
+  flag="SUCCESS"
+>
+  <div>
+    <div
+      className="successPart"
+    >
+      <img
+        alt="Error icon"
+        src="/images/itemSuccess-mobile.png"
+      />
+      <span>
+        1
+        2
+        3
+      </span>
+    </div>
+  </div>
+</TopMessage>
+`;

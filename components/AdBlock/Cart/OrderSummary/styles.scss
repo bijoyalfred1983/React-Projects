@@ -1,0 +1,484 @@
+@import '../../../theme/variables';
+
+.checkOutContainer{
+  width:78%;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 1px;
+
+  @media #{$extra-large-and-down} {
+    width:86%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+
+.checkOutButton{
+  background-color: $orange-primary;
+  color: $color-white-main;
+  font-family: $font-az-medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 40px;
+
+  @media #{$extra-large-and-down} {
+    width: 148px;
+  }
+}
+
+.paypalButton{
+  background-color: $az-checkout-light-grey;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media #{$extra-large-and-down} {
+    width: 148px;
+  }
+}
+
+.checkOutSeparator{
+  color: $az-light-grey;
+  font-size: 14px;
+  font-family: $font-az-app;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+
+  @media #{$extra-large-and-down} {
+    display: none;
+  }
+}
+
+.mainDiv  {
+  background: transparent;
+  border: none;
+  padding-top:  0;
+  position:  sticky;
+
+  td, th  {
+    padding-top:  10px !important;
+    padding-bottom:  10px !important;
+  }
+
+  @media #{$extra-large-and-down} {
+    padding: 24px 15px;
+    background-color: $color-white-main;
+  }
+}
+
+.summaryHdr {
+  font-size:  28px;
+  text-transform:  uppercase;
+  line-height:  28px;
+  letter-spacing:  0.2px;
+  color:  #000;
+  text-align: center;
+  font-family: $font-az-cond;
+  padding-top: 30px !important;
+  
+  @media #{$extra-large-and-down} {
+    font-size: 28px;
+    font-family: $font-az-vehicle;
+    font-stretch: condensed;
+    line-height: 1.33;
+    color: $az-para-black;
+    font-weight: 500;
+    letter-spacing: normal;
+    padding-top: 0 !important;
+  }
+}
+
+.headerBorder {
+  @media #{$medium-only} {
+    text-align: center;
+  }
+}
+
+.titleImg  {
+  width:  84px;
+  height:  4px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
+  @media #{$medium-only} {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.uline {
+  text-align: center;
+}
+
+.contentBlock  {
+  width: 100%;
+
+  form {
+    .fullWidth {
+      width:  100%;
+      position:  relative;
+
+      @media #{$medium-only} {
+        display: none;
+      }
+    }
+  }
+
+  @media #{$medium-only} {
+    width: 48%;
+    position: relative;
+    min-height: 250px;
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  .promoTerms  {
+    margin-top:  25px;
+
+    @media #{$medium-only} {
+      display: none;
+    }
+  }
+
+  .promoTerms img  {
+    float: left;
+    padding-right: 10px;
+  }
+}
+
+.tableBlock {
+  width:100%;
+}
+
+.verticalDivider {
+  display: none;
+  
+  @media #{$medium-only} {
+    min-height: 240px;
+    border: 1px solid #e5e5e5;
+    width: 1px;
+    margin: 10px;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+
+.contentBlockLeft {
+  display: none;
+
+  @media #{$medium-only} {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+  }
+
+  .promoTerms  {
+    margin-top:  15px;
+    font-size: 12px;
+  }
+
+  .promoTerms img  {
+    float: left;
+    padding-right: 10px;
+    width: 45px;
+    margin-left: -7px;
+  }
+
+  .earnRewardsContainer {
+    display: none;
+  }
+}
+
+.contentLeft  {
+  text-align:  left;
+  padding-left:  0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.contentRight  {
+  text-align:  right;
+  font-weight: bolder;
+  padding-right:  0 !important;
+}
+
+.promoCode  {
+  color:  #a9aaa8;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.33;
+}
+
+.clearBoth  {
+  clear:  both;
+}
+
+.firstHalf  {
+  width:  60%;
+  display:  inline-block;
+}
+
+.secondHalf  {
+  width:  40%;
+  // display:  inline-block;
+  float:  right;
+  text-align: right;
+}
+
+.iconBlk  {
+  display:  inline-block;
+  vertical-align:  middle;
+  text-align:  left;
+  width:  15%;
+}
+
+.textBlk  {
+  color:  $az-crust-black;
+  font-size:  12px;
+  line-height: 1.33;
+  text-align: left;
+  display:  inline-block;
+  vertical-align:  middle;
+  width:  85%;
+}
+
+.equalWidth  {
+  width:  50%;
+}
+
+.removeBtn  {
+  color:  $az-warm-grey;
+  font-size:  12px;
+  line-height:  1.5;
+  letter-spacing: 0.1px;
+  text-align:  right;
+  cursor:  pointer;
+}
+
+.removePromo {
+  background: none;
+  border: 0;
+}
+
+.promoErrorMsg {
+  color: $az-error-color;
+  font-size: 12px;
+}
+
+.promoInputError {
+  margin: 0 !important;
+  margin-right: 15px !important;
+  border-bottom: 1px solid $az-error-color;
+
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $az-crust-grey;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $az-crust-grey;
+  }
+
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $az-crust-grey;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $az-crust-grey;
+  }
+}
+
+.promoInput {
+  margin: 0 !important;
+  margin-right: 15px !important;
+  border-bottom: 1px solid $color-grey !important;
+  font-family: $font-category-cont;
+  font-size: 14px;
+
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $az-crust-grey;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $az-crust-grey;
+  }
+
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $az-crust-grey;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $az-crust-grey;
+  }
+}
+
+.promoButton {
+  font-family: $font-az-medium;
+  background: none;
+  border: 1px solid $black-bg-color;
+  color: $black-bg-color;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 15px;
+
+  @media #{$extra-large-and-up} {
+    padding: 10px 20px;
+
+  }
+
+  @media #{$medium-only} {
+    width: 85px;
+    height: 36px;
+    margin-top: 7px;
+  }
+
+  @media #{$extra-large-and-down} {
+    padding: 10px 15px;
+  }
+}
+
+@media #{$extra-large-and-up} {
+  .vAlignMiddle  {
+    top: 148px !important;
+    left: 92px !important;
+  }
+}
+
+.floatLeft  {
+  float:  left;
+}
+
+.floatRight  {
+  float:  right;
+}
+
+.subTotalMain {
+  margin-top:  25px;
+
+  @media #{$medium-only} {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+  }
+}
+
+.subText  {
+  margin-bottom:  25px;
+  text-align: left;
+  font-size:  12px;
+  color:  $az-light-grey;
+
+  @media #{$medium-only} {
+    position: absolute;
+    bottom: 0;
+  }
+
+  @media #{$small-and-down} {
+    margin-top: 10px;
+  }
+}
+
+.subTotalBlk  {
+  text-transform:  uppercase;
+  font-weight: bold;
+  color: $grey-ultra-dark;
+  font-size:  20px;
+  line-height: 1.2;
+
+  @media #{$medium-only} {
+    padding-right: 25px;
+  }
+}
+
+.promoCodeBlk  {
+  div  {
+    width:  100% !important;
+  }
+}
+
+.applyBtn  {
+  background:  transparent;
+  border:  1px solid #000;
+  color:  #000;
+  border-radius:  0 !important;
+  float:  right;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  padding: 9px 20px;
+  font-weight: bold;
+}
+
+.handCursor  {
+  cursor:  pointer;
+}
+
+.coreInfoheader {
+  font-size: 16px;
+  font-weight: 550;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.13;
+  text-align: left;
+}
+
+.promoText  {
+  font-size:  11px;
+}
+
+.coreProductTitle  {
+  font-weight: 900 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.11;
+  color: $black-bg-color !important;
+}
+
+.titleSubText  {
+  color:  $gray-bg-color !important;
+  font-size:  14px !important;
+  font-weight:  normal !important;
+  padding-top:  5px;
+  padding-bottom:  5px;
+  border-bottom: 1px solid $color-lighter-grey;
+}
+
+.separatorLine  {
+  background-color: $color-lighter-grey;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:  100%;
+}
+
+.depositPH  {
+  padding-top: 5px;
+  color: $gray-bg-color;
+  font-size: 1em;
+  line-height: 1.43;
+}
+
+.mobileHide {
+  @media #{$small-and-down} {
+    display: none;
+  }
+}

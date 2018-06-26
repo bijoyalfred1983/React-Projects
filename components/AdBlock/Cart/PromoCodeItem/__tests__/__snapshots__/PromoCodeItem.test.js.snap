@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PromoCodeItem /> renders correctly PromoCodeItem 1`] = `
+<MuiThemeProvider>
+  <Component>
+    <div
+      className="promoCodeContainer"
+    >
+      <div
+        className="promoCodeCard"
+      >
+        <span
+          className="promoTextContainer"
+        >
+          <img
+            alt="cart logo"
+            className="promoCartImg"
+            src="/images/az-cart.png"
+          />
+          <span
+            className="promoTitleText"
+          >
+            RECEIVE 20% OFF SHIP TO HOME ITEMS WITH OUR PROMO CODE 
+            <span
+              className="couponText"
+            >
+              AUTOZONE123
+            </span>
+          </span>
+        </span>
+        <RaisedButton
+          className="applyButton"
+          disabled={false}
+          fullWidth={false}
+          label="APPLY NOW"
+          labelPosition="after"
+          primary={false}
+          secondary={false}
+        >
+          <Paper
+            circle={false}
+            className="applyButton"
+            rounded={true}
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": 88,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+            transitionEnabled={true}
+            zDepth={1}
+          >
+            <div
+              className="applyButton"
+              style={
+                Object {
+                  "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                  "backgroundColor": "#ffffff",
+                  "borderRadius": 2,
+                  "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                  "boxSizing": "border-box",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "display": "inline-block",
+                  "fontFamily": "Roboto, sans-serif",
+                  "minWidth": 88,
+                  "muiPrepared": true,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                }
+              }
+            >
+              <EnhancedButton
+                containerElement="button"
+                disabled={false}
+                focusRippleColor="rgba(0, 0, 0, 0.87)"
+                focusRippleOpacity={0.1}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onKeyboardFocus={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 2,
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "padding": 0,
+                    "textAlign": "center",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={0}
+                touchRippleColor="rgba(0, 0, 0, 0.87)"
+                touchRippleOpacity={0.1}
+                type="button"
+              >
+                <button
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                      "backgroundColor": "#ffffff",
+                      "border": 10,
+                      "borderRadius": 2,
+                      "boxSizing": "border-box",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "fontFamily": "Roboto, sans-serif",
+                      "fontSize": "inherit",
+                      "fontWeight": "inherit",
+                      "height": 36,
+                      "lineHeight": "36px",
+                      "margin": 0,
+                      "muiPrepared": true,
+                      "outline": "none",
+                      "padding": 0,
+                      "position": "relative",
+                      "textAlign": "center",
+                      "textDecoration": "none",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "verticalAlign": null,
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                  type="button"
+                >
+                  <TouchRipple
+                    abortOnScroll={true}
+                    color="rgba(0, 0, 0, 0.87)"
+                    key="touchRipple"
+                    opacity={0.1}
+                  >
+                    <div
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <div
+                        style={
+                          Object {
+                            "backgroundColor": false,
+                            "borderRadius": 2,
+                            "height": 36,
+                            "muiPrepared": true,
+                            "top": 0,
+                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          }
+                        }
+                      >
+                        <span
+                          key="labelElement"
+                          style={
+                            Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontSize": 14,
+                              "fontWeight": 500,
+                              "letterSpacing": 0,
+                              "margin": 0,
+                              "muiPrepared": true,
+                              "opacity": 1,
+                              "paddingLeft": 16,
+                              "paddingRight": 16,
+                              "position": "relative",
+                              "textTransform": "uppercase",
+                              "userSelect": "none",
+                            }
+                          }
+                        >
+                          APPLY NOW
+                        </span>
+                      </div>
+                    </div>
+                  </TouchRipple>
+                </button>
+              </EnhancedButton>
+            </div>
+          </Paper>
+        </RaisedButton>
+      </div>
+      <div
+        className="promoCodeCardMobile"
+      >
+        <div
+          className="promoTitleText"
+        >
+          <strong>
+            Congrats!
+          </strong>
+           You qualify for 
+          <span
+            className="persentageText"
+          >
+            <strong>
+              20%
+            </strong>
+          </span>
+           off ship-to-home
+        </div>
+        <div
+          className="promoTextContainer"
+        >
+          <div
+            className="couponTextContent"
+          >
+            <p
+              className="couponText"
+            >
+              AUTOZONE123
+            </p>
+          </div>
+          <RaisedButton
+            className="applyButton"
+            disabled={false}
+            fullWidth={false}
+            label="APPLY"
+            labelPosition="after"
+            primary={false}
+            secondary={false}
+          >
+            <Paper
+              circle={false}
+              className="applyButton"
+              rounded={true}
+              style={
+                Object {
+                  "display": "inline-block",
+                  "minWidth": 88,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                }
+              }
+              transitionEnabled={true}
+              zDepth={1}
+            >
+              <div
+                className="applyButton"
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 2,
+                    "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                    "boxSizing": "border-box",
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "minWidth": 88,
+                    "muiPrepared": true,
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  }
+                }
+              >
+                <EnhancedButton
+                  containerElement="button"
+                  disabled={false}
+                  focusRippleColor="rgba(0, 0, 0, 0.87)"
+                  focusRippleOpacity={0.1}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onKeyboardFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "height": 36,
+                      "lineHeight": "36px",
+                      "padding": 0,
+                      "textAlign": "center",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                  touchRippleColor="rgba(0, 0, 0, 0.87)"
+                  touchRippleOpacity={0.1}
+                  type="button"
+                >
+                  <button
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                        "backgroundColor": "#ffffff",
+                        "border": 10,
+                        "borderRadius": 2,
+                        "boxSizing": "border-box",
+                        "cursor": "pointer",
+                        "display": "inline-block",
+                        "fontFamily": "Roboto, sans-serif",
+                        "fontSize": "inherit",
+                        "fontWeight": "inherit",
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "margin": 0,
+                        "muiPrepared": true,
+                        "outline": "none",
+                        "padding": 0,
+                        "position": "relative",
+                        "textAlign": "center",
+                        "textDecoration": "none",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "verticalAlign": null,
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <TouchRipple
+                      abortOnScroll={true}
+                      color="rgba(0, 0, 0, 0.87)"
+                      key="touchRipple"
+                      opacity={0.1}
+                    >
+                      <div
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <div
+                          style={
+                            Object {
+                              "backgroundColor": false,
+                              "borderRadius": 2,
+                              "height": 36,
+                              "muiPrepared": true,
+                              "top": 0,
+                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                            }
+                          }
+                        >
+                          <span
+                            key="labelElement"
+                            style={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontSize": 14,
+                                "fontWeight": 500,
+                                "letterSpacing": 0,
+                                "margin": 0,
+                                "muiPrepared": true,
+                                "opacity": 1,
+                                "paddingLeft": 16,
+                                "paddingRight": 16,
+                                "position": "relative",
+                                "textTransform": "uppercase",
+                                "userSelect": "none",
+                              }
+                            }
+                          >
+                            APPLY
+                          </span>
+                        </div>
+                      </div>
+                    </TouchRipple>
+                  </button>
+                </EnhancedButton>
+              </div>
+            </Paper>
+          </RaisedButton>
+        </div>
+      </div>
+    </div>
+  </Component>
+</MuiThemeProvider>
+`;

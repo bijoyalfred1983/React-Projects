@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoItems /> container renders without breaking 1`] = `
+<NoItemsComponent>
+  <div
+    className="container"
+  >
+    <img
+      alt="empty"
+      height="120"
+      src="/images/cart_empty_icon.svg"
+      width="120"
+    />
+    <div
+      className="cartIsEmpty"
+    >
+      Looks like your cart is empty
+    </div>
+    <div
+      className="searchProducts"
+    >
+      Search for Products Above
+    </div>
+    <Link
+      to="/"
+    />
+  </div>
+</NoItemsComponent>
+`;

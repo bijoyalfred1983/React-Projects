@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterHeadComponent /> renders on FooterHeadComponent correctly 1`] = `
+<StaticRouter
+  basename=""
+  context={Object {}}
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <FooterHeadComponent
+      btnContainer={
+        Array [
+          Object {
+            "className": "",
+            "content": "locate a store",
+            "iconUrl": "/images/footer/location-pin.svg",
+            "id": "1",
+            "linkTo": "/",
+          },
+          Object {
+            "className": "",
+            "content": "track your order",
+            "iconUrl": "/images/footer/box.svg",
+            "id": "2",
+            "linkTo": "/trackOrder",
+          },
+        ]
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="footerHead"
+        >
+          <div
+            className="col s12 m9 navBtnPrintWidth"
+          >
+            <NavButtons
+              btnContainer={
+                Array [
+                  Object {
+                    "className": "",
+                    "content": "locate a store",
+                    "iconUrl": "/images/footer/location-pin.svg",
+                    "id": "1",
+                    "linkTo": "/",
+                  },
+                  Object {
+                    "className": "",
+                    "content": "track your order",
+                    "iconUrl": "/images/footer/box.svg",
+                    "id": "2",
+                    "linkTo": "/trackOrder",
+                  },
+                  Object {
+                    "className": "hide-on-small-only",
+                    "content": "we're hiring!",
+                    "iconUrl": "/images/footer/pencil-write.svg",
+                    "id": "3",
+                    "linkTo": "/",
+                  },
+                ]
+              }
+            >
+              <div
+                className="footerTop"
+              >
+                <ul
+                  className="liWidthPrint"
+                >
+                  <li
+                    className="col m4 s12 "
+                  >
+                    <Link
+                      onClick={[Function]}
+                      replace={false}
+                      to="/"
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="not found"
+                          src="/images/footer/location-pin.svg"
+                        />
+                        <span>
+                          LOCATE A STORE
+                        </span>
+                        <img
+                          alt=""
+                          className="hide-on-small-only rightArrow"
+                          src="/images/footer/right.svg"
+                        />
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="col m4 s12 "
+                  >
+                    <Link
+                      onClick={[Function]}
+                      replace={false}
+                      to="/trackOrder"
+                    >
+                      <a
+                        href="/trackOrder"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="not found"
+                          src="/images/footer/box.svg"
+                        />
+                        <span>
+                          TRACK YOUR ORDER
+                        </span>
+                        <img
+                          alt=""
+                          className="hide-on-small-only rightArrow"
+                          src="/images/footer/right.svg"
+                        />
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="col m4 s12 hide-on-small-only"
+                  >
+                    <Link
+                      onClick={[Function]}
+                      replace={false}
+                      to="/"
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="not found"
+                          src="/images/footer/pencil-write.svg"
+                        />
+                        <span>
+                          WE'RE HIRING!
+                        </span>
+                        <img
+                          alt=""
+                          className="hide-on-small-only rightArrow"
+                          src="/images/footer/right.svg"
+                        />
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </NavButtons>
+          </div>
+          <div
+            className="col s12 m3 hide-on-small-only printIconWidth"
+          >
+            <IconComponent>
+              <IconPane
+                btnContainer={
+                  Array [
+                    Object {
+                      "iconUrl": "/images/socialmedia/icon-facebook.svg",
+                      "id": "1",
+                      "url": "https://www.facebook.com/",
+                    },
+                    Object {
+                      "iconUrl": "/images/socialmedia/icon-twitter.svg",
+                      "id": "2",
+                      "url": "https://www.twitter.com/",
+                    },
+                    Object {
+                      "iconUrl": "/images/socialmedia/icon-you-tube.svg",
+                      "id": "3",
+                      "url": "https://www.youtube.com/",
+                    },
+                    Object {
+                      "iconUrl": "/images/socialmedia/icon-instagram.svg",
+                      "id": "4",
+                      "url": "https://www.instagram.com/",
+                    },
+                    Object {
+                      "iconUrl": "/images/socialmedia/icon-app-apple.svg",
+                      "id": "5",
+                      "url": "https://www.apple.com/",
+                    },
+                  ]
+                }
+              >
+                <div
+                  className="footerTop"
+                >
+                  <ul
+                    className=""
+                  >
+                    <li>
+                      <a
+                        href="https://www.facebook.com/"
+                      >
+                        <img
+                          alt=""
+                          src="/images/socialmedia/icon-facebook.svg"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.twitter.com/"
+                      >
+                        <img
+                          alt=""
+                          src="/images/socialmedia/icon-twitter.svg"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/"
+                      >
+                        <img
+                          alt=""
+                          src="/images/socialmedia/icon-you-tube.svg"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/"
+                      >
+                        <img
+                          alt=""
+                          src="/images/socialmedia/icon-instagram.svg"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.apple.com/"
+                      >
+                        <img
+                          alt=""
+                          src="/images/socialmedia/icon-app-apple.svg"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </IconPane>
+            </IconComponent>
+          </div>
+        </div>
+      </div>
+    </FooterHeadComponent>
+  </Router>
+</StaticRouter>
+`;

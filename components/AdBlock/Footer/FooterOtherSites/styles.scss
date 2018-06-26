@@ -1,0 +1,57 @@
+@import '../../../theme/variables';
+
+.footerOtherContainer{
+  padding-bottom: 40px;
+}
+
+.footerOther{
+  background-color: $az-light-black;
+  box-shadow: none;
+
+  .heading{
+    color: $color-light-gray;
+    font-size: 18px;
+    line-height: 2;
+    font-family: $font-az-cond-heavy;
+    text-align: center;
+  }
+
+  .listHolder{
+    display: table;
+    margin: 0 auto;
+  }
+
+  .list{
+    color: $az-gray-shine;
+    font-size: 14px;    
+
+    li{
+      @media #{$medium-and-up} {
+        float: left;
+      }
+
+      &::after{
+        content: '|';      
+        padding-right: 12px;        
+        padding-left: 12px;
+      }
+
+      &:last-child::after{
+        content: '';
+      }
+
+      a{
+        line-height: 2;
+        color: $az-gray-shine;
+        font-family: $font-az-header;
+      }
+    }
+  }
+}
+
+@media print{
+  .footerOther .list li{
+    float: left;
+    padding-right: 20px;
+  }
+}

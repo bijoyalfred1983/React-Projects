@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OtherSitesComponent /> renders on OtherSitesComponent NavLink correctly 1`] = `
+<OtherSitesComponent
+  NavLinks={
+    Array [
+      Object {
+        "content": "AutoZoner Services ",
+        "id": "1",
+      },
+      Object {
+        "content": "AutoZoner Benefits Login",
+        "id": "2",
+      },
+      Object {
+        "content": "AutoZone Pro",
+        "id": "3",
+      },
+      Object {
+        "content": "ALLDATAdiy",
+        "id": "4",
+      },
+      Object {
+        "content": "ALLDATA Repair",
+        "id": "5",
+      },
+    ]
+  }
+>
+  <div
+    className="footerOtherContainer"
+  >
+    <div
+      className="footerOther"
+    >
+      <div
+        className="heading"
+      >
+        OTHER AUTOZONE SITES
+      </div>
+      <NavLink
+        NavLinks={
+          Array [
+            Object {
+              "content": "AutoZoner Services ",
+              "id": "1",
+            },
+            Object {
+              "content": "AutoZoner Benefits Login",
+              "id": "2",
+            },
+            Object {
+              "content": "AutoZone Pro",
+              "id": "3",
+            },
+            Object {
+              "content": "ALLDATAdiy",
+              "id": "4",
+            },
+            Object {
+              "content": "ALLDATA Repair",
+              "id": "5",
+            },
+          ]
+        }
+      >
+        <div
+          className="footerOther"
+        >
+          <div
+            className="listHolder"
+          >
+            <ul
+              className="list"
+            >
+              <li>
+                <a
+                  href="#!"
+                  onClick={[Function]}
+                >
+                  AutoZoner Services 
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  onClick={[Function]}
+                >
+                  AutoZoner Benefits Login
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  onClick={[Function]}
+                >
+                  AutoZone Pro
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  onClick={[Function]}
+                >
+                  ALLDATAdiy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  onClick={[Function]}
+                >
+                  ALLDATA Repair
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+</OtherSitesComponent>
+`;

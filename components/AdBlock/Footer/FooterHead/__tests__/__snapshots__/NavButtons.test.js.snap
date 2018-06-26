@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavButtons /> renders on NavButtons correctly 1`] = `
+<StaticRouter
+  basename=""
+  context={Object {}}
+  location="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NavButtons
+      btnContainer={
+        Array [
+          Object {
+            "className": "",
+            "content": "locate a store",
+            "iconUrl": "/images/footer/location-pin.svg",
+            "id": "1",
+            "linkTo": "/",
+          },
+          Object {
+            "className": "",
+            "content": "track your order",
+            "iconUrl": "/images/footer/box.svg",
+            "id": "2",
+            "linkTo": "/trackOrder",
+          },
+        ]
+      }
+    >
+      <div
+        className="footerTop"
+      >
+        <ul
+          className=""
+        >
+          <li
+            className="col m4 s12 "
+          >
+            <Link
+              replace={false}
+              to="/"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                <img
+                  alt="not found"
+                  src="/images/footer/location-pin.svg"
+                />
+                <span>
+                  LOCATE A STORE
+                </span>
+                <img
+                  alt=""
+                  className="hide-on-small-only rightArrow"
+                  src="/images/footer/right.svg"
+                />
+              </a>
+            </Link>
+          </li>
+          <li
+            className="col m4 s12 "
+          >
+            <Link
+              replace={false}
+              to="/trackOrder"
+            >
+              <a
+                href="/trackOrder"
+                onClick={[Function]}
+              >
+                <img
+                  alt="not found"
+                  src="/images/footer/box.svg"
+                />
+                <span>
+                  TRACK YOUR ORDER
+                </span>
+                <img
+                  alt=""
+                  className="hide-on-small-only rightArrow"
+                  src="/images/footer/right.svg"
+                />
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </NavButtons>
+  </Router>
+</StaticRouter>
+`;

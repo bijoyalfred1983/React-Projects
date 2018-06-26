@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterBodyComponent /> renders on FooterBodyComponent correctly 1`] = `
+<FooterBodyComponent
+  data={
+    Array [
+      Object {
+        "className": "",
+        "list": Array [
+          Object {
+            "URL": "",
+            "content": "Store Locator",
+            "id": "1",
+          },
+          Object {
+            "URL": "",
+            "content": "Shop by Make",
+            "id": "2",
+          },
+          Object {
+            "URL": "",
+            "content": "Shop by Model",
+            "id": "3",
+          },
+          Object {
+            "URL": "",
+            "content": "Vin Decoder",
+            "id": "4",
+          },
+          Object {
+            "URL": "",
+            "content": "AutoZone Rewards",
+            "id": "5",
+          },
+          Object {
+            "URL": "",
+            "content": "Gift Cards ",
+            "id": "6",
+          },
+        ],
+        "title": "Shop",
+      },
+      Object {
+        "className": "hide-on-small-only",
+        "list": Array [
+          Object {
+            "URL": "",
+            "content": "Buy Online, Pick Up in Store",
+            "id": "51",
+          },
+          Object {
+            "URL": "",
+            "content": "Local Store Ad",
+            "id": "52",
+          },
+          Object {
+            "URL": "",
+            "content": "Loan-A-Tool",
+            "id": "53",
+          },
+          Object {
+            "URL": "",
+            "content": "In-store Services",
+            "id": "54",
+          },
+          Object {
+            "URL": "",
+            "content": "Video Library",
+            "id": "55",
+          },
+          Object {
+            "URL": "",
+            "content": "Mobile App",
+            "id": "56",
+          },
+        ],
+        "title": "AutoZone Services",
+      },
+    ]
+  }
+>
+  <div
+    className="footerBodyContainer"
+  >
+    <FooterList
+      footerColumn={
+        Object {
+          "className": "",
+          "list": Array [
+            Object {
+              "URL": "",
+              "content": "Store Locator",
+              "id": "1",
+            },
+            Object {
+              "URL": "",
+              "content": "Shop by Make",
+              "id": "2",
+            },
+            Object {
+              "URL": "",
+              "content": "Shop by Model",
+              "id": "3",
+            },
+            Object {
+              "URL": "",
+              "content": "Vin Decoder",
+              "id": "4",
+            },
+            Object {
+              "URL": "",
+              "content": "AutoZone Rewards",
+              "id": "5",
+            },
+            Object {
+              "URL": "",
+              "content": "Gift Cards ",
+              "id": "6",
+            },
+          ],
+          "title": "Shop",
+        }
+      }
+    >
+      <div
+        className="footerBody"
+      >
+        <div
+          className=""
+        >
+          <div
+            className="heading"
+          >
+            SHOP
+          </div>
+          <ul
+            className="list"
+          >
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Store Locator
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Shop by Make
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Shop by Model
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Vin Decoder
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                AutoZone Rewards
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Gift Cards 
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </FooterList>
+    <FooterList
+      footerColumn={
+        Object {
+          "className": "hide-on-small-only",
+          "list": Array [
+            Object {
+              "URL": "",
+              "content": "Buy Online, Pick Up in Store",
+              "id": "51",
+            },
+            Object {
+              "URL": "",
+              "content": "Local Store Ad",
+              "id": "52",
+            },
+            Object {
+              "URL": "",
+              "content": "Loan-A-Tool",
+              "id": "53",
+            },
+            Object {
+              "URL": "",
+              "content": "In-store Services",
+              "id": "54",
+            },
+            Object {
+              "URL": "",
+              "content": "Video Library",
+              "id": "55",
+            },
+            Object {
+              "URL": "",
+              "content": "Mobile App",
+              "id": "56",
+            },
+          ],
+          "title": "AutoZone Services",
+        }
+      }
+    >
+      <div
+        className="footerBody"
+      >
+        <div
+          className="hide-on-small-only"
+        >
+          <div
+            className="heading"
+          >
+            AUTOZONE SERVICES
+          </div>
+          <ul
+            className="list"
+          >
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Buy Online, Pick Up in Store
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Local Store Ad
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Loan-A-Tool
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                In-store Services
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Video Library
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Mobile App
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </FooterList>
+    <FooterList
+      footerColumn={
+        Object {
+          "className": "hide-on-small-only",
+          "list": Array [
+            Object {
+              "URL": "",
+              "content": "Careers",
+              "id": "101",
+            },
+            Object {
+              "URL": "",
+              "content": "About Autozone",
+              "id": "102",
+            },
+            Object {
+              "URL": "",
+              "content": "Investor Relations",
+              "id": "103",
+            },
+            Object {
+              "URL": "",
+              "content": "Affiliate Program",
+              "id": "104",
+            },
+            Object {
+              "URL": "",
+              "content": "Vendor Information",
+              "id": "105",
+            },
+            Object {
+              "URL": "",
+              "content": "Customer Testimonials",
+              "id": "106",
+            },
+          ],
+          "title": "About Us",
+        }
+      }
+    >
+      <div
+        className="footerBody"
+      >
+        <div
+          className="hide-on-small-only"
+        >
+          <div
+            className="heading"
+          >
+            ABOUT US
+          </div>
+          <ul
+            className="list"
+          >
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Careers
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                About Autozone
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Investor Relations
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Affiliate Program
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Vendor Information
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Customer Testimonials
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </FooterList>
+    <FooterList
+      footerColumn={
+        Object {
+          "className": "",
+          "list": Array [
+            Object {
+              "URL": "",
+              "content": "Track My Order",
+              "id": "150",
+            },
+            Object {
+              "URL": "/contactUs",
+              "content": "Contact Us",
+              "id": "151",
+            },
+            Object {
+              "URL": "",
+              "content": "My Account",
+              "id": "152",
+            },
+            Object {
+              "URL": "",
+              "content": "Warranties",
+              "id": "153",
+            },
+            Object {
+              "URL": "",
+              "content": "FAQs",
+              "id": "154",
+            },
+            Object {
+              "URL": "",
+              "content": "Return Policies",
+              "id": "155",
+            },
+          ],
+          "title": "Customer Service",
+        }
+      }
+    >
+      <div
+        className="footerBody"
+      >
+        <div
+          className=""
+        >
+          <div
+            className="heading"
+          >
+            CUSTOMER SERVICE
+          </div>
+          <ul
+            className="list"
+          >
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Track My Order
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contactUs"
+                onClick={[Function]}
+              >
+                 
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                My Account
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Warranties
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                FAQs
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                 
+                Return Policies
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </FooterList>
+  </div>
+</FooterBodyComponent>
+`;

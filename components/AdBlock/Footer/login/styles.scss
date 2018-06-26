@@ -1,0 +1,112 @@
+@import '../../../theme/variables';
+
+.loginSection{
+  .leftContent{    
+    height: 110px;
+    background-color: #f26100;
+    color: white;    
+    padding-top: 15px;
+
+    @media #{$small-and-down} {  
+      text-align: center;
+    }
+
+    @media #{$medium-and-up} {  
+      float: left;
+      width: 50%;
+      padding-left: 50px;
+    }
+
+    h4{
+      font-size: 24px;
+
+      @media #{$medium-and-up} {  
+        font-size: 35px;
+        font-family: $font-az-cond;
+        margin-bottom: 0;
+        line-height: 1.14;
+      }
+    }
+
+    div{
+      font-size: 16px;
+
+      @media #{$small-and-down} {
+        padding: 0 40px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+      }
+    }
+  }
+
+  .loginHolder{
+    background-color: #f26100;
+
+    @media #{$medium-and-up} {   
+      height: 110px;
+      float: left;
+      width: 50%;
+      position: relative;
+    }
+
+    .loginContent{
+      @media #{$medium-and-up} {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-bottom: 100px solid #fff;
+        border-left: 50px solid transparent;
+      }
+    }
+
+    .fieldWrapper{
+      @media #{$medium-and-up} {
+        position: relative;
+        top: 95px;
+      }
+
+      @media #{$small-and-down} {
+        padding: 30px 10px 10px;
+      }      
+    }
+  }
+}
+
+@media print{
+  .loginHolder{
+    height: 110px;
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+
+  .leftContent{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+  }
+
+  .loginContent{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 100px solid #fff;
+    border-left: 50px solid transparent;
+  }
+
+  .fieldWrapper{
+    position: relative;
+    top: 143px;
+  }
+
+  .printMediaWidth{
+    width: 60.33333% !important;
+  }
+
+  .hide-on-med-and-up{
+    display:none;
+  }
+}
+

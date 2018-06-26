@@ -1,0 +1,53 @@
+@import '../../../theme/variables';
+
+.footerTop{
+  background-color: $az-light-black;
+  width: 100%;
+  box-shadow: none;
+
+  @media #{$small-and-down} {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  @media #{$medium-and-up} {
+    text-align: right;
+  }
+
+  li{    
+    display: inline-block;
+    
+    a{
+      padding: 0 10px;
+    }  
+
+    img{
+      width: 33px;
+      height: 34px;
+      vertical-align: middle;
+    }
+  }
+  
+  li:last-child{
+    @media #{$small-and-down} {
+      img{
+        width: 101px;
+      }
+    }
+
+    @media #{$medium-and-up} {
+      display: none;
+    }   
+  } 
+}
+
+@media print{
+  .footerTop li:last-child{
+    display: none;
+  }
+
+  .footerTop img{
+    width: 30px !important;
+  }
+}

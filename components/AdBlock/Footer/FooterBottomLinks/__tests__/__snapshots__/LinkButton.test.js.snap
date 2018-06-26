@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinkButton /> renders on LinkButton correctly 1`] = `
+<LinkButton
+  bottomlinks={
+    Array [
+      Object {
+        "content": "Terms & Conditions",
+        "id": "1",
+        "url": "/termsCondition",
+      },
+      Object {
+        "content": "Privacy Policy",
+        "id": "2",
+        "url": "",
+      },
+    ]
+  }
+>
+  <div
+    className="foooterBottomLinks"
+  >
+    <ul />
+  </div>
+</LinkButton>
+`;

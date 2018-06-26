@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconPane /> renders on Footer IconPane correctly 1`] = `
+<IconPane
+  btnContainer={
+    Array [
+      Object {
+        "iconUrl": "/images/socialmedia/icon-facebook.svg",
+        "id": "1",
+        "url": "https://www.facebook.com/",
+      },
+    ]
+  }
+>
+  <div
+    className="footerTop"
+  >
+    <ul
+      className=""
+    >
+      <li>
+        <a
+          href="https://www.facebook.com/"
+        >
+          <img
+            alt=""
+            src="/images/socialmedia/icon-facebook.svg"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</IconPane>
+`;

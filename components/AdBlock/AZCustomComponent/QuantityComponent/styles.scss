@@ -1,0 +1,79 @@
+@import '../../../theme/variables';
+
+.quantityMainContainer {
+  display: flex;
+  align-items: center;
+
+  .quantityLabel {
+    width: 26px;
+    object-fit: contain;
+    font-family: $font-az-header;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: $az-ultra-crust;
+    margin-right: 7px;
+  }
+
+  .lightQtyLabel {
+    width: 23px;
+    font-family: $font-az-header;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: $az-warm-grey;
+    text-decoration: underline;
+  }
+
+  .round {
+    background: $color-white-main !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px $color-lighter-grey;
+
+    img {
+      margin-top: 1px;
+    }
+  }
+
+  .round:disabled {
+    background: $color-light-gray !important;
+  }
+
+  .quantityContainer {
+    max-width: 182px;
+    display: flex;
+    align-items: center;
+  }
+
+  .qtyTextBoz {
+    border-top: solid 1px $az-white-grad !important;
+    border-left: solid 1px $az-white-grad !important;
+    border-right: solid 1px $az-white-grad !important;
+    padding: 2px !important;
+    font-style: $font-az-container !important;
+    margin: 0 8px !important;
+  }
+
+  .normalInput {
+    border-bottom: solid 4px $az-aq-grad-grey !important;
+  }
+
+  .errorInput {
+    border-bottom: solid 4px $autozone-red !important;
+  }
+}
+
+.quantityBlockContainer {
+  display: block !important;
+}
+

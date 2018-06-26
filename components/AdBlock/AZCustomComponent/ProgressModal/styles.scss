@@ -1,0 +1,21 @@
+@import '../../../theme/variables';
+
+.modalGif {
+  width: 460px;
+}
+
+.dialog {
+  display:block;
+  z-index: 999;
+  background-color: transparent;
+  margin: 0 auto;
+  width: 450px;
+  position: fixed;
+  top: 50%;
+  left: 25%;
+
+  @media #{$extra-large-and-down} {
+    left: 10%;
+  }
+
+}

@@ -1,0 +1,27 @@
+@import '../../../theme/variables';
+
+.backHandlerHeader {
+  padding: 23px 19px 8px;
+  
+  .addServiceBack {
+    color: $az-warm-grey;
+    font-size: 15px;
+    font-family: $font-az-medium;
+    cursor: pointer;
+    border: none !important;
+    background: none !important;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0;
+  }
+
+  .addServiceLeftArrow {
+    width: 12px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+}
+

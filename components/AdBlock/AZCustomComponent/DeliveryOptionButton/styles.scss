@@ -1,0 +1,114 @@
+@import '../../../theme/variables';
+
+.shipContainer {
+  width: 225px;
+  max-width: 225px;
+
+  button {
+    background: $color-white-main;    
+    border: none;
+    
+    &.active{    
+      box-shadow: -3px 2px 4px 0 rgba(0, 0, 0, 0.1), inset 1px 0 0 0 #a9aaa8, inset -1px 0 0 0 #a9aaa8, inset 0 1px 0 0 #a9aaa8, inset 0 -4px 0 0 #323232;
+    }
+
+    &.inactive {      
+      background: #f3f3f2;
+
+      &:hover{
+        border-bottom: solid 4px $black-bg-color;
+      }
+    }    
+
+    &:disabled {
+      cursor: not-allowed !important;
+      background: $az-white-grad;
+      border-bottom: none;
+      
+      &:hover{
+        border-bottom: none;
+      }
+    }
+  }
+
+  .radioImgContent {
+    width: 17px;
+    display: flex;
+    height: 17px;
+    margin-left: 10px;
+    margin-right: 16px;
+  }
+
+  .radioImg {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .store {
+    font-family: $font-az-medium;
+    font-size: 14px;
+    font-stretch: condensed;
+    color: $az-crust-black;
+    text-transform: uppercase;
+    line-height: 1.38;
+  }
+
+  .instock {
+    font-family: $font-az-app;
+    font-size: 11px;
+    text-align: left;
+    color: $color-green;
+    line-height: 1.27;
+  }
+
+  .notAvailable {
+    font-family: $font-az-app;
+    font-size: 11px;
+    text-align: left;
+    color: $az-grad-red;
+    line-height: 1.27;
+  }
+
+  .switchText {
+    padding: 5px 0;
+  }
+
+  .pickup {
+    display: flex;
+    height: 58px;
+    background-color: $color-white-main;
+    border: solid 1px $color-lighter-grey;
+    box-shadow: $box-shadow-pick;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media #{$small-and-down} {
+  .shipContainer {
+    width: 136px;
+
+    .radioImgContent {
+      width: 20px;
+      display: flex;
+      height: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .store {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  
+    .instock, .notAvailable {
+      font-size: 12px;
+      line-height: 1.17;
+    }
+
+    .pickup {
+      height: 56px;
+      width: 100%;
+    }
+  }
+}

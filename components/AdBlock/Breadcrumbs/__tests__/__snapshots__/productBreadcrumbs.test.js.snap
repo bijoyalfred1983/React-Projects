@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductBreadcrumbs /> renders error when breadcrumbs is empty 1`] = `
+<ProductBreadcrumbs
+  data={Array []}
+/>
+`;

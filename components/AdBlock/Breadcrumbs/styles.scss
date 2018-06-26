@@ -1,0 +1,49 @@
+@import '../../theme/variables';
+
+.homeLink, .homeLink:hover {
+  color:  $az-crust-grey !important;
+  font-style: normal !important;
+  font-weight:  normal !important;
+  font-size:  12px !important;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-family: $font-az-app;
+}
+
+.activeLink  {
+  font-size:  12px !important;
+  color:  $crust-white-color !important;
+  font-style:  normal !important;
+  font-weight:  normal !important;
+}
+
+.dividerLink  {
+  opacity:  1 !important;
+  font-size:  20px !important;
+  color:  $az-crust-grey !important;
+  height:  12px !important;
+  margin-right: 5px !important;
+  font-weight: lighter !important;
+  background:  transparent !important;
+}
+
+.breadcrumbLinkAZ  {
+  padding: 0 !important;
+  margin:20px !important;
+}
+
+.mobileCrumb  {
+  display:  none !important;
+
+  @media #{$extra-large-and-down} {
+    display: block !important;
+  }
+}
+
+.desktopCrumb  {
+  @media #{$extra-large-and-down}{
+    display: none !important;
+  }
+}
+

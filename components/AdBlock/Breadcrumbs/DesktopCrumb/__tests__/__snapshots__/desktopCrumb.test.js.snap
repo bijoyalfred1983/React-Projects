@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DesktopCrumb /> onClick renders correctly 1`] = `
+<Breadcrumb>
+  <span
+    key="Parts"
+  >
+    <BreadcrumbSection>
+      <Link
+        id="breadcrumbItem"
+        onClick={[Function]}
+        replace={false}
+        to={
+          Object {
+            "pathname": "/Parts",
+            "state": Object {
+              "pageType": "CategoryGrouping",
+            },
+          }
+        }
+      >
+        Parts
+      </Link>
+    </BreadcrumbSection>
+    <BreadcrumbDivider />
+  </span>
+  <span
+    key="Brakes And Traction Control"
+  >
+    <BreadcrumbSection>
+      <Link
+        id="breadcrumbItem"
+        onClick={[Function]}
+        replace={false}
+        to={
+          Object {
+            "pathname": "/parts/brakes-and-traction-control",
+            "state": Object {
+              "pageType": "CategoryGrouping",
+            },
+          }
+        }
+      >
+        Brakes And Traction Control
+      </Link>
+    </BreadcrumbSection>
+    <BreadcrumbDivider />
+  </span>
+  <span
+    key="Disc Brake System"
+  >
+    <BreadcrumbSection>
+      <Link
+        id="breadcrumbItem"
+        onClick={[Function]}
+        replace={false}
+        to={
+          Object {
+            "pathname": "/parts/brakes-and-traction-control/disc-brake-system",
+            "state": Object {
+              "pageType": "CategoryGrouping",
+            },
+          }
+        }
+      >
+        Disc Brake System
+      </Link>
+    </BreadcrumbSection>
+    <BreadcrumbDivider />
+  </span>
+  <span
+    key="Brake Pads"
+  >
+    <BreadcrumbSection>
+      <Link
+        id="breadcrumbItem"
+        onClick={[Function]}
+        replace={false}
+        to={
+          Object {
+            "pathname": "/brakes-and-traction-control/brake-pads",
+            "state": Object {
+              "pageType": "CategoryGrouping",
+            },
+          }
+        }
+      >
+        Brake Pads
+      </Link>
+    </BreadcrumbSection>
+    <BreadcrumbDivider />
+  </span>
+  <BreadcrumbSection
+    active={true}
+    key="Duralast PlatinumBattery_BT"
+  >
+    Duralast PlatinumBattery_BT
+  </BreadcrumbSection>
+</Breadcrumb>
+`;

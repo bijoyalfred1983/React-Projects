@@ -1,0 +1,147 @@
+//  Table of Contents:
+//
+//  1. Colors
+//  2. Media Query Screen width
+//  3. Font Style
+//  4. General Style
+//  5. Box Shadow Style
+
+//  1. Colors
+$color-white: #eee;
+$color-white-main: #fff;
+$az-white: #f7f7f5;
+$color-lighter-grey: #e5e5e5;
+$color-light-gray: #f2f2f2;
+$white-color: white;
+$white-field-color: #ccc;
+$crust-white-color: #c4c4c4;
+$az-ultra-white: #f9f9f9;
+$az-ultra-gray: lightgray;
+$az-aqua-white: #ddd;
+$az-ultra-plain-white: #d0d0d0;
+$az-ultra-crust-white: #f6f6f6;
+$az-ultra-aq-white: #bbb;
+$az-light-white: #f8f8f8;
+$az-white-aqua: #c3c3c3;
+$az-white-grad: #dadada;
+$color-grey: #a9aaa8;
+$gray-color: gray;
+$az-light-grey: #787878;
+$autozone-grey: #666;
+$gray-bg-color: #5d5d5d;
+$grey-ultra-dark: #484848;
+$az-aq-grad-grey: #767676;
+$az-ultra-light-grey: #4b4b4b;
+$az-ultra-crust: #323232;
+$az-ultra-grey: #595959;
+$az-grey-grad: #b3b3b3;
+$az-aqua-grey: #999;
+$az-gray-shine: #9b9b9b;
+$color-dark-gray: #333;
+$az-crust-grey: #5b5d5b;
+$az-grey-light: #f2f2f2;
+$az-light-crust-grey: #5b5b5b;
+$az-dark-grey: #3a3c3d;
+$az-warm-grey:#7c7c7c;
+$az-color-light-grey: #7a7a7a;
+$az-grey-asparagus: #a4a6a4;
+$az-checkout-light-grey: #eee;
+$az-crust-black: #231f20;
+$az-ultra-dark: #222;
+$autozone-red: #cf1322;
+$red-color: red;
+$az-error-color: #f00;
+$az-dark-red: #f10d15;
+$az-grad-red: #d52b1e;
+$orange-primary:#f26100;
+$az-yellow: #f0ad4e;
+$az-ultra-yellow: #ff9800;
+$az-dark-yellow: #f38021;
+$az-orange-dark: #d65600;
+$color-green: #237804;
+$az-green: green;
+$az-ultra-green: #2c7800;
+$az-light-green: #417505;
+$az-dark-green: #20633b;
+$az-bright-magenta: #ff00d8;
+$az-warm-pink: #ff4081;
+$az-vivid-purple: #8b00ff;
+$az_azure: #03a9f4;
+$az-blue-colour: #2196f3;
+$az-ultra-blue: #3b82bf;
+$az-dark-blue: #0f4b91;
+$black-color: black;
+$black-bg-color: #000;
+$az-black-color: #111;
+$az-light-black: #202124;
+$az-para-black: rgba(0,0,0,0.87);
+$az-grad-black: rgba(0,0,0,0.8);
+$az-orange-primary: #f26100;
+$az-warm-grey: #7c7c7c;
+$az-dark-grey-text: #4a4a4a;
+$az-pipe-grey-text: #979797;
+$az-white-selection: #f7f7f7;
+$az-cream-color: #a9aaa8;
+$az-burnt-red: #ab0b0b;
+$az-black-dark: #625a5b;
+$az-light-gray: rgba(0,0,0,0.4);
+$az-lighter-gray: rgba(0,0,0,0.1);
+$az-gray-black: rgba(255, 255, 255, 0.2);
+
+
+//  2. Media Query Screen width
+//  Media Query Ranges
+$small-screen: 719px !default;
+$small-screen-up: 720px !default;
+$large-screen: 1139px !default;
+$large-screen-up: 1140px !default;
+//$medium-screen: 992px !default;
+//$medium-screen-up: 993px !default;
+
+$small-and-down: 'only screen and (max-width : #{$small-screen})' !default; // only mobile
+$medium-and-up: 'only screen and (min-width : #{$small-screen-up})' !default; // except mobile
+$medium-only: 'only screen and (min-width : #{$small-screen-up}) and (max-width : #{$large-screen})' !default; // only tablet
+$extra-large-and-down: 'only screen and (max-width : #{$large-screen})' !default; // except desktop
+$extra-large-and-up: 'only screen and (min-width : #{$large-screen-up})' !default; // only desktop
+
+
+//$large-and-up: 'only screen and (min-width : #{$medium-screen-up})' !default; // tablet landscape above
+//$medium-and-down: 'only screen and (max-width : #{$medium-screen})' !default; // only mobile and tablet portait
+//$medium-only: 'only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})' !default; // only tablet portait
+
+//  3. Font Style
+//  Font style Autozone
+$font-az: Helvetica Neue, Arial, sans-serif;
+$font-az-header: 'HelveticaNeue', 'Helvetica', Arial, sans-serif;
+$font-az-medium: 'AutoZoneCond-Medium', Arial, sans-serif;
+$font-az-vehicle: 'AutoZoneCond-Medium', Helvetica Neue, Arial, sans-serif;
+$font-az-cond: 'AutoZoneCond', Helvetica, sans-serif;
+$font-az-cond-heavy: 'AutoZoneCond-Heavy', Arial, sans-serif;
+$font-az-app: 'HelveticaNeue', sans-serif;
+$font-category-cont: 'HelveticaNeue-Medium', sans-serif;
+$font-category-cont-heavy: 'HelveticaNeue-Bold', sans-serif;
+$font-az-app-light: Helvetica Neue, 'Helvetica-Light', 'Helvetica', Arial, sans-serif;
+$font-az-acct: 'AutoZoneCond', Helvetica Neue, Arial, sans-serif;
+$font-az-container: 'AutoZoneCond', Arial,sans-serif;
+$font-az-light-container: 'AutoZoneCond', sans-serif;
+$font-az-big-container: 'AutoZoneCond-Heavy', sans-serif;
+
+$font-prod-style: Roboto, sans-serif;
+
+//  4. General Style
+// variables add Vehicle
+$ldirection: left;
+$rdirection: right;
+$cdirection: center;
+$text-flow-mode: ellipsis;
+
+//  5. Box Shadow Style
+//  box-shadow
+$box-shadow-orange: 1px 2px 4px 0 rgba(0, 0, 0, 0.2), inset 4px 0 0 0 $orange-primary;
+$az-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 4px 0 rgba(0, 0, 0, 0.06), 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+$box-shadow-ultra-grey: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.14);
+$box-shadow-grey: 1px 2px 4px 0 rgba(0, 0, 0, 0.2), inset 4px 0 0 0 $color-grey;
+$box-shadow-black: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.14);
+$box-shadow-ultra-dark: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-pick: -3px 2px 4px 0 rgba(0, 0, 0, 0.1), inset 1px 0 0 0 $color-grey, inset -1px 0 0 0 $color-grey, inset 0 1px 0 0 $color-grey inset 0 -4px 0 0 $black-bg-color;
+$box-shadow-gray-top: 0 -2px 4px 0 rgba(0, 0, 0, 0.2);
